@@ -9,7 +9,8 @@
     "require": "./lib/index.js"
   },
   "scripts": {
-    "test": "eslint test.js"
+    "test": "eslint test.js",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "eslint",
@@ -18,7 +19,10 @@
     "lint-rule"
   ],
   "author": "Veigar Eli",
-  "license": "HR",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "eslint": "^8.57.1"
   }
