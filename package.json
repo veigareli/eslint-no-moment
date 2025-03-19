@@ -1,17 +1,22 @@
 {
   "name": "@veigareli/eslint-plugin-no-moment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ESLint rule to forbid the use of moment.js",
   "main": "lib/index.js",
   "type": "commonjs",
   "exports": {
     "import": "./lib/index.mjs",
-    "require": "./lib/index.js" 
+    "require": "./lib/index.js"
   },
   "scripts": {
     "test": "eslint test.js"
   },
-  "keywords": ["eslint", "eslint-plugin", "no-moment", "lint-rule"],
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "no-moment",
+    "lint-rule"
+  ],
   "author": "Veigar Eli",
   "license": "HR",
   "devDependencies": {
