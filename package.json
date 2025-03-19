@@ -9,8 +9,7 @@
     "require": "./lib/index.js"
   },
   "scripts": {
-    "test": "eslint test.js",
-    "prepublishOnly": "npm test"
+    "test": "npx eslint test.js"
   },
   "keywords": [
     "eslint",
