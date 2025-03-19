@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "An ESLint rule to forbid the use of moment.js",
   "main": "lib/index.js",
-  "type": "module",
+  "type": "commonjs",
+  "exports": {
+    "import": "./lib/index.mjs",
+    "require": "./lib/index.js" 
+  },
   "scripts": {
     "test": "eslint test.js"
   },
